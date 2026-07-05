@@ -46,8 +46,7 @@
     - Server replies with main.css stylesheet
                           
 
-      │
-      
+       │  
       ▼
    
    
