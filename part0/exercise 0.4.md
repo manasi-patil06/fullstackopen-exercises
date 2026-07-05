@@ -7,6 +7,7 @@
 
 
        │
+       
        ▼
        
 1. BROWSER -> SERVER (POST)                     
@@ -14,6 +15,7 @@
     Payload: text= BE HAPPY!!!                 
 
         │
+   
         ▼
 
 3. SERVER -> BROWSER                                   
@@ -22,6 +24,7 @@
     - Tells browser: "reload /exampleapp/notes now"      
 
       │
+      
       ▼
       
       
@@ -31,6 +34,7 @@
                
 
           |
+      
           ▼
       
 
@@ -50,13 +54,13 @@
     - browser runs the script and triggers a request to fetch data
                              
 
-       │
+                                                                                                                                               │     
       
        ▼
       
       
  8. BROWSER -> SERVER (GET)                   
-   -  Browser asks for the updated list of notes from exampleapp/data.json                
-   -  Server sends fully updated JSON array which inludes the new note as well
-   -  script takes the data and redraws the list on the screen
+     - Browser asks for the updated list of notes from exampleapp/data.json                
+     - Server sends fully updated JSON array which inludes the new note as well
+     - script takes the data and redraws the list on the screen
       
