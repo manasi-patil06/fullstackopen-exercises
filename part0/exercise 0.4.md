@@ -1,5 +1,6 @@
 # Exercise 0.4: New Note Flow
 # FLOWCHART DAIGRAM
+    
     Participant browser
     Participant server
 
@@ -8,6 +9,7 @@
   
       
           │  
+          
           ▼
        
 1. BROWSER -> SERVER (POST)                     
@@ -23,8 +25,8 @@
     - Browser request the main HTML page to reload                
     - Server sends back the notes HTML file
         
-4.BROWSER -> SERVER (GET)                    
-    - browser sees whether it needs styling, asks for /exampleapp/main.css
+4. BROWSER -> SERVER (GET)                    
+    - Browser sees whether it needs styling, asks for /exampleapp/main.css                                                             
     - Server replies with main.css stylesheet
     
 5. BROWSER -> SERVER (GET)
