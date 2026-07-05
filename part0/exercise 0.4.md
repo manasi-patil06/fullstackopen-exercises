@@ -24,6 +24,7 @@
        │
        ▼
       
+      
 4. BROWSER -> SERVER (GET request)                     
     - Browser request the main HTML page to reload                
     -Server sends back the notes HTML file                
@@ -48,6 +49,6 @@
       
  7. BROWSER -> SERVER (GET)                   
    - Browser asks for the updated list of notes from exampleapp/data.json                
-   -Server sends fully updated JSON array which inludes the new note as well
-   -script takes the data and redraws the list on the screen
+   - Server sends fully updated JSON array which inludes the new note as well
+   - script takes the data and redraws the list on the screen
       
