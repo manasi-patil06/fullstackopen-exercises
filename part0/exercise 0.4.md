@@ -5,23 +5,26 @@
 
  User types a note and clicks 'Save'
 
-
-       │
-       
-       ▼
+  
+      
+          │  
+          ▼
        
 1. BROWSER -> SERVER (POST)                     
     URL: /exampleapp/new_note                           
-    Payload: text= BE HAPPY!!!                 
+    Payload: text= BE HAPPY!!!
+                 
 
         │
    
         ▼
+   
 
 3. SERVER -> BROWSER                                   
     - Server adds the note data into the array       
     - Sends 302 redirect codeback to client                    
-    - Tells browser: "reload /exampleapp/notes now"      
+    - Tells browser: "reload /exampleapp/notes now"
+            
 
       │
       
@@ -53,8 +56,7 @@
     - Server sends main.js file
     - browser runs the script and triggers a request to fetch data
                              
-
-                                                                                                                                               │     
+       │     
       
        ▼
       
